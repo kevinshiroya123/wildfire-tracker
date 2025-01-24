@@ -1,0 +1,42 @@
+.location-info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
+  }
+  
+  .location-info h2 {
+    margin: 0;
+    display: inline-block; /* Ensure header aligns properly */
+  }
+  
+  .location-info-header {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Push close button to the right */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .location-info p {
+    margin: 5px 0;
+  }
+  
+  .close-btn {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #888;
+    transition: color 0.2s ease;
+  }
+  
+  .close-btn:hover {
+    color: #f00;
+  }
+
+  

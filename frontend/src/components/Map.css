@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .map-container {
+    width: calc(100vw);
+    height: calc(100vh - 70px);
+    margin: 0px auto;
+    position: relative;
+  }
+  
+  .info-box {
+    position: absolute;
+    top: 20px; /* Position from the top */
+    right: 20px; /* Position from the right */
+    z-index: 1000; /* Ensure it appears above the map */
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
